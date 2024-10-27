@@ -379,6 +379,7 @@
           </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
@@ -422,10 +423,14 @@
           <label class="modal-label" for="user-text">Comment</label>
           <textarea id="user-text" class="modal-textarea" name="modal-text" placeholder="Text input" rows="8"></textarea>
         </div>
+        <div class="modal-field">
+          <input type="checkbox" name="policy" id="policy" class="modale-check" value="true">
+          <label for="policy" class="modal-check-text">I accept the terms and conditions of the Privacy Policy</label>
+        </div>
+        <button type="submit" class="modal-button">Send</button>
+    <script src="./js/modal.js"></script>
         </form>
       </div>
-    </div>
-    <button type="button" class="modal-button">Send</button>
-  <script src="./js/modal.js"></script>
+  </div>
 </body>
 </html>
